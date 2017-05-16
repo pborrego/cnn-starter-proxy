@@ -1,0 +1,16 @@
+{
+  "name": "cnn-starter-proxy",
+  "version": "0.1.0",
+  "description": "Proxy between global package and templates.",
+  "license": "Apache-2.0",
+  "private": true,
+  "author": "Matt Crutchfield <matt.crutchfield@turner.com>",
+  "main": "./src/index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "chalk": "1.1.3",
+    "inquirer": "3.0.6"
+  }
+}
