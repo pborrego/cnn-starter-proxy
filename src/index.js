@@ -64,7 +64,7 @@ function run(root, type, callback) {
 }
 
 function fetchPackage(root, type, override, callback) {
-    const uri = override || `git+ssh://git@github.com/cnnlabs/${type}.git`;
+    const uri = override || `https://github.com/cnnlabs/${packageName}.git`;
 
     let command = 'npm';
     let args = ['i', '-D', '-E', uri];
