@@ -11,6 +11,11 @@ const types = [
     {
         label: 'Web Application',
         value: 'cnn-starter-app'
+    },
+    {
+        label: 'Paul\'s Web Application',
+        value: 'cnn-starter-app',
+        override: 'https://github.com/pborrego/cnn-starter-app.git#b98f23ef7e79b4cb591a73917964da03404e8b14'
     }
     // ,
     // @TODO: add support for override, this will trigger a secondary prompt
@@ -91,7 +96,7 @@ function install(root, type, override) {
 function handleInput(root) {
     return (choice) => {
         const type = types.filter(type => choice.type === type.label)[0] || {};
-        install(root, type.value);
+        install(root, type.value, type.override);
     }
 }
 
