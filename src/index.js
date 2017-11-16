@@ -15,7 +15,7 @@ const types = [
     {
         label: 'Paul\'s Web Application',
         value: 'cnn-starter-app',
-        override: 'https://github.com/pborrego/cnn-starter-app.git#b98f23ef7e79b4cb591a73917964da03404e8b14'
+        override: 'https://github.com/pborrego/cnn-starter-app.git#c0e858bbd3e0240d37bb6ceb5521c5aef14f7dfb'
     }
     // ,
     // @TODO: add support for override, this will trigger a secondary prompt
